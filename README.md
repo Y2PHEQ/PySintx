@@ -1,15 +1,15 @@
-￼
+![](https://i.imgur.com/DQ2Gc9P.jpg)
 
 Nothing special, this is a simple module that depends on requests, rich, and I add some API. 
 
-Terminal Installation
-
+## Terminal Installation
+```
 pip3 install git+https://github.com/sintxcs/PySintx.git
+```
 
 
-
-Importing the module in your script
-
+## Importing the module in your script
+```
 try:
     import PySintx
 except ModuleNotFoundError:
@@ -17,11 +17,10 @@ except ModuleNotFoundError:
     import PySintx
 
 from PySintx import *
+```
 
-
-
-Colors
-
+## Colors
+```
 PySintx.yellow
 PySintx.cyan
 PySintx.blue
@@ -37,7 +36,4 @@ PySintx.red_blue
 PySintx.red_cyan
 PySintx.red_green
 PySintx.red_purple
-
-Social Links
-
-Facebook • Telegram
+```
